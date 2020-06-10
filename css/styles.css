@@ -67,11 +67,9 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.card-header { 
+.card { 
 
-    background-image: url("../images/roughcloth.jpg") !important;
-    background-repeat: repeat;
-
+    background-color: rgba(255,255,255,0.8);
 }
 
 .jumbotron {
@@ -81,6 +79,13 @@ h1, h2, h3, h4, h5 {
 .thead-light th {
     background-color: rgba(230,200,200,0.7) !important;
     border: none !important;
+}
+
+.transtable {
+
+    background-color:rgba(255,255,255,0.3) !important;
+    border: 1px solid rgba(0,0,0,0.1);
+    
 }
 
 .card-attr { 
